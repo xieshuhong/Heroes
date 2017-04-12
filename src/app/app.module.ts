@@ -7,7 +7,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent} from './app.component';
 
-import { HeroFormComponent } from './hero-form.component';
 
 
 @NgModule({
@@ -15,16 +14,12 @@ import { HeroFormComponent } from './hero-form.component';
 	    imports:[
 	        
 	        BrowserModule,
-	        FormsModule
 	       
 	    ],
 	    
 	    declarations:[
 	     
 	        AppComponent,
-	        
-	        HeroFormComponent
-	    
 	     
 	    ],
 	    
